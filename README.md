@@ -29,7 +29,8 @@ npm install -g create-react-app
 * To create a new React app:
 ```
 create-react-app name_of_app
-cd```
+cd
+```
 
 * To run the app, cd into the directory and do:
 ```
