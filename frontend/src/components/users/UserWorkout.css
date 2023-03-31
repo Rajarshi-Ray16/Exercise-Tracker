@@ -1,0 +1,172 @@
+.center {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+.plan-name {
+    margin: auto;
+    width: 245px;
+    background-color: #198754;
+    border-radius: 10px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.plan-name-select {
+    /* margin: auto; */
+    position: relative;
+    display: inline-block;
+}
+
+.plan-names {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.plan-names button {
+    width: 245px;
+    background-color: #198754;
+    border-radius: 10px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.plan-names button:hover {
+    background-color: #349a75;
+}
+
+.plan-name-select:hover .plan-names {
+    display: block;
+}
+
+.plan-name-select:hover .plan-name {
+    background-color: #3e8e41;
+}
+
+#show-workout {
+    display: none;
+}
+
+.exercise-card {
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(100, 100, 100);
+    background-color: rgb(230, 230, 230);
+    padding: 1rem;
+    box-shadow: inset;
+    /* margin-bottom: 15px; */
+}
+
+.exercise-card:hover {
+    color: white;
+    border: 1px solid rgb(75, 75, 75);
+    background-color: rgb(150, 150, 150);
+}
+
+.rest-time {
+    padding: 0.75rem;
+    margin: 7.5px 0 7.5px 0;
+    width: 100%;
+    color: white;
+    background-color: #20644b;
+    border-radius: 10px;
+}
+
+.exercise-details-grid {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 20px;
+}
+
+.exercise-info-list ul {
+    list-style-type: none;
+    list-style-position: outside;
+    font-size: 16px;
+    text-align: end;
+}
+
+.time-between-sets {
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    color: white;
+    border: 1px solid rgb(75, 75, 75);
+    background-color: rgb(150, 150, 150);
+    border-radius: 10px;
+}
+
+.time-between-sets:hover {
+    color: black;
+    border: 1px solid rgb(100, 100, 100);
+    background-color: rgb(230, 230, 230);
+}
+
+.nextSpan {
+    color: green;
+    padding: 10
+}
+
+.end-workout-button {
+    display: none;
+}
+
+.next-button {
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(100, 100, 100);
+    background-color: #0dcaf0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    box-shadow: inset;
+    /* margin-bottom: 15px; */
+}
+
+.next-button:hover {
+    border: 1px solid rgb(75, 75, 75);
+    background-color: #31d2f2;
+}
+
+.next-button:disabled {
+    color: rgb(58, 58, 58);
+    /* color: black; */
+    border: 1px solid rgb(100, 100, 100);
+    background-color: #0dcaf0;
+}
+
+#next-button-div {
+    display: none;
+}
+
+.rest-button {
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(100, 100, 100);
+    background-color: #ffc107;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    box-shadow: inset;
+    /* margin-bottom: 15px; */
+}
+
+.rest-button:hover {
+    border: 1px solid rgb(75, 75, 75);
+    background-color: #ffca2c;
+}
+
+.rest-button:disabled {
+    color: rgb(58, 58, 58);
+    /* color: black; */
+    border: 1px solid rgb(100, 100, 100);
+    background-color: #ffc107;
+}

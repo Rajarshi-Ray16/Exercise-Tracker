@@ -1,0 +1,21 @@
+.button-add {
+    color: green;
+}
+
+#custom-dropdown {
+    vertical-align: center;
+    margin: 0.1rem;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    color: rgb(248, 248, 248);
+    background-color: rgb(114, 114, 114);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.add-exercise:hover {
+    color: red;
+    background-color: aqua;
+}
