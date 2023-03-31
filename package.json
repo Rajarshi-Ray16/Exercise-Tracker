@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "bootstrap": "^5.2.0-beta1",
+    "concurrently": "^7.0.0",
+    "express": "^4.17.2",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "react-bootstrap": "^2.4.0",
+    "react-simple-timefield": "^3.2.5",
+    "validator": "^13.7.0"
+  },
+  "name": "assignment-1",
+  "description": "## Installations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
